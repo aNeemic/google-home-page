@@ -1,0 +1,22 @@
+header, footer {
+	color: rgb(61, 61, 61);
+	font-size: 0.75em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+ul{
+	list-style-type: none; /*Removes bullet points*/
+	margin: 0;
+	padding: 0;
+}
+ul:hover{
+	text-decoration: underline;
+}
+li{
+	float: left;
+}
+ul{
+	display: block;
+	padding: 10px;
+	background-color: rgb(240, 243, 244);
+}
