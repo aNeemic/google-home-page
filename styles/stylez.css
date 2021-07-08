@@ -1,0 +1,33 @@
+html {
+	background-color: #dcd0ff;
+	font-size: 10px;
+	font-family: "Open Sans", sans-serif;
+	}
+	
+h1 {
+	font-size: 60px;
+	text-align: center;
+    margin: 0; /*overwrite deafult syling gap*/
+    padding: 20px 0; /*top and bottom padding for heading*/
+    color: #00539f; /*set heading text color*/
+    text-shadow: 3px 3px 1px black; /*text shadow - horiszonatl offset, vertical offset, blur radius, shadow color */
+	}
+
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+	}
+	
+body {
+	width: 600px; /*forces body to be 600 pixels wide*/
+	margin: 0 auto; /* when you set two values on a property
+					the first value is top/bottom second is left/right*/
+	background-color: #00ff00; /*element background color */
+	padding: 0 20px 20px 20px; /*values for top, right, bottom, and left*/
+	border: 5px solid pink; /*width, style, and color of border */
+}
+img {
+    display: block; /*center the image*/
+    margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+header, footer {
+	color: rgb(61, 61, 61);
+	font-size: 0.75em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+h3:hover{
+	text-decoration: underline;
+}
