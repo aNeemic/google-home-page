@@ -59,6 +59,7 @@ a:hover{
 	line-height: 30px;
 	text-align: center;
 	font-weight: bold;
+	padding: 1px 3px;
 	border: 1px solid #2477fc;
 }
 /*Main body section of the search page */
