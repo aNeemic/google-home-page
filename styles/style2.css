@@ -4,13 +4,26 @@ header, footer {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 }
-h3:hover{
+.about:hover, .store:hover, .gmail:hover, .images:hover, {
 	text-decoration: underline;
 }
 .top-left{
-	display: flex;
-	letter-spacing: 10px;
+	font-size: 12px;
+	display: inline-flex;
+	float: left;
+	padding: 10px;
+	margin: 5px;
 }
-.top-right[
-	display: flex;
-]
+.top-left:hover{
+	text-decoration:underline;
+}
+.top-right{
+	display: inline-flex;
+	float: right;
+}
+.bottom-left{
+	display: inline-flex;
+}
+.bottom-right{
+	display:-webkit-inline-box;
+}
