@@ -119,7 +119,7 @@ a:hover{
 
 /* footer */
 #footer{
-	background-color: rgba(226, 224, 224, 0.863);
+	/* background-color: rgba(226, 224, 224, 0.863); */
 	position: absolute;
     bottom: 0;
     display: grid;
