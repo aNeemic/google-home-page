@@ -7,7 +7,7 @@ html{
 #header
 {
 	display: grid;
-	grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px 1fr 55px 55px 50px 62px;
 	grid-template-rows: 50px;
 	grid-template-areas: 
 	"about store . gmail images appmenu signIn";
@@ -16,7 +16,7 @@ html{
 a{
 	font-size: 14px;
 	text-decoration: none;
-	color: rgba(19, 19, 19, 0.479);
+	color: rgba(19, 19, 19, 0.685);
 	font-family: Arial, Helvetica, sans-serif;
 }
 a:hover{
@@ -61,6 +61,7 @@ a:hover{
 	font-weight: bold;
 	padding: 1px 3px;
 	border: 1px solid #2477fc;
+	border-radius: 3px;
 }
 /*Main body section of the search page */
 #main{
@@ -73,8 +74,11 @@ a:hover{
 }
 #searchbar{
 	grid-area: searchbar;
-	height: 55%;
-	width: 110%;
+	font-size: 15px;
+	text-align: start;
+	padding: 10px 30px 10px 40px;
+	height: 38%;
+	width: 100%;
 	border-radius: 100px;
 	justify-self: center;
 	align-self: flex-end;
@@ -87,18 +91,18 @@ a:hover{
 	justify-self: center;
 }
 #google-search{
-	color: rgba(0, 0, 0, 0.603); 
-	font-size: 14px;
+	color: rgba(0, 0, 0, 0.747); 
+	font-size: 15px;
 	border: none;
-	padding: 7px 15px;
+	padding: 12px 20px;
 	border-radius: 5px;
 	margin: 4px;
 }
 #feelin-lucky{
-	color: rgba(0, 0, 0, 0.603); 
-	font-size: 14px;
+	color: rgba(0, 0, 0, 0.747); 
+	font-size: 15px;
 	border: none;
-	padding: 7px 15px;
+	padding: 12px 20px;
 	border-radius: 5px;
 	margin: 4px;
 }
@@ -124,7 +128,7 @@ a:hover{
 	position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 100px 100px 150px 115% 70px 70px 70px;
+    grid-template-columns: 100px 100px 150px 125% 70px 70px 70px;
     grid-template-rows: 50px;
     grid-template-areas: 
     "advertising business how . privacy terms settings";
