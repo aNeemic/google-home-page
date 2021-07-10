@@ -2,7 +2,9 @@ html{
 	height: 100%;
 	width: 100%;
 } /*Making sure the page loads at 100% size */
-
+body{
+	overflow-x: hidden;
+}
 /* Header--pray for me */
 #header
 {
@@ -14,7 +16,7 @@ html{
 	margin: 0 20px 0 10px;
 }
 a{
-	font-size: 14px;
+	font-size: 15px;
 	text-decoration: none;
 	color: rgba(19, 19, 19, 0.685);
 	font-family: Arial, Helvetica, sans-serif;
@@ -84,7 +86,7 @@ a:hover{
 	visibility: visible;
   }*/
 
-  
+
 /*Main body section of the search page */
 #main{
 	display: grid;
@@ -148,13 +150,15 @@ a:hover{
 }
 
 /* footer */
-#footer{
-	/* background-color: rgba(226, 224, 224, 0.863); */
+.footer{
+	width: 100%;
+	background-color: rgba(226, 224, 224, 0.863);
 	position: absolute;
     bottom: 0;
+	left: 0;
     display: grid;
-    grid-template-columns: 100px 100px 130px 133% 70px 70px 70px;
-    grid-template-rows: 50px;
+    grid-template-columns: 100px 100px 130px 58% 70px 70px 70px;
+    grid-template-rows: 35px ;
     grid-template-areas: 
     "advertising business how . privacy terms settings";
 }
