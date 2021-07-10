@@ -3,7 +3,8 @@ html{
 	width: 100%;
 } /*Making sure the page loads at 100% size */
 body{
-	overflow-x: hidden;
+	overflow-x: hidden; /* lock horizontal scroll */
+	overflow-y: hidden;
 }
 /* Header--pray for me */
 #header
