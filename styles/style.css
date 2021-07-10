@@ -83,6 +83,8 @@ a:hover{
   .signIn:hover .tooltiptext {
 	visibility: visible;
   }*/
+
+  
 /*Main body section of the search page */
 #main{
 	display: grid;
