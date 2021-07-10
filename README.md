@@ -1,3 +1,3 @@
 # google-home-page
 
-https://aNeemic.github.io
+https://aneemic.github.io/google-home-page/
