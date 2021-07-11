@@ -2,37 +2,40 @@
 <html lang="en">
     <head>
         <meta charset= "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href= "styles/style.css" rel= "stylesheet" type="text/css">
         <title>Google</title>
     </head>
-    <body>
-       <div id= "header">
-            <button id="about">About</button>
-            <button id="store">Store</button>
-            <button id="gmail">Gmail</button>
-            <button id="images">Images</button>
-            <button id="appmenu"><img src="images/apps-smol.png"> </button>
-            <button id="signIn"><img src="images/profile-pic.PNG"></button> <!--On click to my github page from here--> 
+        <div class="flex">
+            <body>
+            <div id= "header">
+                    <button id="about">About</button>
+                    <button id="store">Store</button>
+                    <button id="gmail">Gmail</button>
+                    <button id="images">Images</button>
+                    <button id="appmenu"><img src="images/apps-smol.png"> </button>
+                    <button id="signIn"><img src="images/profile-pic.PNG"></button> <!--On click to my github page from here--> 
+                
+                    <!--<a href="#" class="tooltiptext">https://github.com/aNeemic</a>--> <!--hover text, will fix later sorry-->
         
-            <!--<a href="#" class="tooltiptext">https://github.com/aNeemic</a>--> <!--hover text, will fix later sorry-->
-   
-        </div>
-       <div id= "main">
-            <a href="#" id="google-logo"><img src="images/google.png"></a>
-                <input type="text" id="searchbar" placeholder="Search Google or Type a URL" results="0">
-              <div id="container">
-                    <button id="google-search" type="button">Google Search</button>
-                    <button id="feelin-lucky" type="button">I'm Feeling Lucky</button>
                 </div>
+            <div id= "main">
+                    <a href="#" id="google-logo"><img src="images/google.png"></a>
+                        <input type="text" id="searchbar" placeholder="Search Google or Type a URL" results="0">
+                    <div id="container">
+                            <button id="google-search" type="button">Google Search</button>
+                            <button id="feelin-lucky" type="button">I'm Feeling Lucky</button>
+                        </div>
+                </div>
+            <div class= "footer">
+                <button id="advertising" class="footer">Advertising</button>
+                <button id="business">Business</button>
+                <button id="how">How Search works</button>
+                <button id="privacy">Privacy</button>
+                <button id="terms">Terms</button>
+                <button id="settings">Settings</button>
+            </div>
+            <script src="scripts/google.js" ></script>
+            </body>
         </div>
-       <div class= "footer">
-        <button id="advertising" class="footer">Advertising</button>
-        <button id="business">Business</button>
-        <button id="how">How Search works</button>
-        <button id="privacy">Privacy</button>
-        <button id="terms">Terms</button>
-        <button id="settings">Settings</button>
-       </div>
-       <script src="scripts/google.js" ></script>
-    </body>
 </html>
