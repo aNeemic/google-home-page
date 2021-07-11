@@ -4,17 +4,19 @@ html{
 } /*Making sure the page loads at 100% size */
 body{
 	overflow-x: hidden; /* lock horizontal scroll */
-	overflow-y: hidden;
+	overflow-y: hidden; /* lock vertical scroll */
 }
-/* Header--pray for me */
+/* Header--pray for me */ 
+
 #header
 {
+	position: absolute;
+	top: 0%;
 	display: grid;
-	grid-template-columns: 50px 50px 1fr 55px 55px 50px 62px;
+	grid-template-columns: 50px 50px 310% 50px 65px 42px 50px;
 	grid-template-rows: 50px;
 	grid-template-areas: 
 	"about store . gmail images appmenu signIn";
-	margin: 0 20px 0 10px;
 }
 a{
 	font-size: 15px;
@@ -22,7 +24,15 @@ a{
 	color: rgba(19, 19, 19, 0.685);
 	font-family: Arial, Helvetica, sans-serif;
 }
-a:hover{
+button{
+	font-size: 15px;
+	text-decoration: none;
+	color: rgba(19, 19, 19, 0.685);
+	font-family: Arial, Helvetica, sans-serif;
+	border: none;
+	background-color: white;
+}
+button:hover{
 	text-decoration: underline;
 }
 
@@ -30,6 +40,7 @@ a:hover{
 	grid-area: about;
 	justify-self: center;
 	align-self: center;
+	background-color: white;
 }
 #store{
 	grid-area: store;
@@ -55,16 +66,11 @@ a:hover{
 	grid-area: signIn;
 	justify-self: center;
 	align-self: center;
-	background-color: rgb(25, 125, 255);
-	color: white;
-	height: 30px;
-	width: 60px;
+	margin-left: 0px;
+	height: 40px;
+	width: 40px;
 	line-height: 30px;
-	text-align: center;
-	font-weight: bold;
 	padding: 1px 3px;
-	border: 1px solid #2477fc;
-	border-radius: 3px;
 }
   
   /* Tooltip text *
@@ -90,6 +96,7 @@ a:hover{
 
 /*Main body section of the search page */
 #main{
+	margin-top: 25px;
 	display: grid;
 	min-height: 100%;
 	grid-template-columns: 33% 33% 33%;
@@ -101,9 +108,9 @@ a:hover{
 	grid-area: searchbar;
 	font-size: 15px;
 	text-align: start;
-	padding: 10px 30px 10px 40px;
+	padding: 8px 30px 8px 40px;
 	height: 38%;
-	width: 100%;
+	width: 110%;
 	border-radius: 100px;
 	justify-self: center;
 	align-self: flex-end;
@@ -119,6 +126,7 @@ a:hover{
 	justify-self: center;
 }
 #google-search{
+	background-color:rgb(248, 248, 248);
 	color: rgba(0, 0, 0, 0.747); 
 	font-size: 15px;
 	border: none;
@@ -127,6 +135,7 @@ a:hover{
 	margin: 4px;
 }
 #feelin-lucky{
+	background-color:rgb(248, 248, 248);
 	color: rgba(0, 0, 0, 0.747); 
 	font-size: 15px;
 	border: none;
@@ -147,18 +156,19 @@ a:hover{
 	grid-area: google-logo;
 	justify-self: center;
 	align-self: flex-end;
-	max-height: 100%;
+	max-height: 190%;
 }
 
 /* footer */
 .footer{
 	width: 100%;
-	background-color: rgba(226, 224, 224, 0.863);
+	height: 50px;
+	background-color: rgb(248, 246, 246);
 	position: absolute;
     bottom: 0;
 	left: 0;
     display: grid;
-    grid-template-columns: 100px 100px 130px 58% 70px 70px 70px;
+    grid-template-columns: 100px 90px 110px 58% 70px 70px 70px;
     grid-template-rows: 35px ;
     grid-template-areas: 
     "advertising business how . privacy terms settings";
@@ -167,29 +177,54 @@ a:hover{
     grid-area: advertising;
     justify-self: center;
     align-self: center;
+	height: 28px;
+	width: 40px;
+	padding: 10px 10px;
+	background-color: rgb(248, 246, 246);
 }
 #business {
     grid-area: business;
     justify-self: center;
     align-self: center;
+	height: 24px;
+	width: 40px;
+	padding: 10px 10px;
+	background-color: rgb(248, 246, 246);
 }
 #how {
     grid-area: how;
     justify-self: center;
     align-self: center;
+	height: 24px;
+	width: 40px;
+	background-color: rgb(248, 246, 246);
+	white-space: nowrap;
+	padding: 10px 10px;
 }
 #privacy {
     grid-area: privacy;
     justify-self: center;
     align-self: center;
+	height: 24px;
+	width: 40px;
+	padding: 10px 10px;
+	background-color: rgb(248, 246, 246);
 }
-#terms {
+#terms{
     grid-area: terms;
     justify-self: center;
     align-self: center;
+	height: 24px;
+	width: 40px;
+	padding: 10px 10px;
+	background-color: rgb(248, 246, 246);
 }
 #settings {
     grid-area: settings;
     justify-self: center;
     align-self: center;
+	height: 24px;
+	width: 40px;
+	padding: 10px 10px;
+	background-color: rgb(248, 246, 246);
 }
